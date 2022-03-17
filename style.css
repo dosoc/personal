@@ -1,0 +1,127 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(20, 19, 19);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding-top: 40px;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: gray;
+}
+header li {
+    display: inline;
+    margin-left: 30px;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+header a {
+    color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+header a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+#logo {
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: dashed;
+    text-shadow: 1px 2px black;
+}
+
+#about-me {
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    display: grid;
+    grid-auto-flow: row;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+article {
+    width: 60%;
+    margin: auto;
+}
+
+#profile-pic {
+    border: 1px solid black;
+    border-radius: 50%;
+    justify-self: center;
+
+}
+p {
+    /* border: 1px solid white; */
+    display: block;
+    padding: 10px;
+    margin: 5px;
+
+}
+#work {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-image: url(images/EoPOucPWMAQ7YRh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 30px;
+
+}
+.mid {
+    border: 1px solid white;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    width: 25%;
+    color: black;
+    border-radius: 20px 0px 20px 0px;
+}
+.mid li {
+    padding: 10px 0;
+}
+.mid h2 {
+    text-align: center;
+}
+#fun-stuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    padding: 20px 0;  
+}
+.java {
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+
+}
+.java h3 {
+    margin-left: 10px;
+}
